@@ -347,13 +347,8 @@ main#home h1 {
 }
 
 .boxes div:hover {
-  cursor: pointer;
   padding: 0.5rem 1.5rem;
   background: #eece1a;
-  color: #000;
-}
-
-.boxes div:hover:hover {
   color: #000;
 }
 
