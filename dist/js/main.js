@@ -28,3 +28,10 @@ function toggleMenu() {
 
   }
 }
+
+//If not repository or repo is private, pop up alert
+$('.norepo').click(aletThem);
+
+function aletThem() {
+  alert("The repo for this project is either private or the client didn't consent to be hosted on github!");
+}
